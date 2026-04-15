@@ -1,0 +1,14 @@
+[project]
+name = "your-project"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+
+dependencies = [
+    "langchain",
+    "ollama",
+    "faiss-cpu",
+    "langchain-community",
+    "langchain-ollama",
+    "langchain-text-splitters>=1.1.1",
+    "langchain-core>=1.2.28",
+]
