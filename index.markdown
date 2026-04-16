@@ -7,9 +7,7 @@ layout: default
 
 RAGを使って、Webページの要点をアーカイブする。
 
-<ul>
 {% for post in site.posts %}
-<li><a href="{{ post.url }}">/pagerag/{{ post.title }}</a></li>
+<li><a href="/pagerag/{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
-</ul>
 
