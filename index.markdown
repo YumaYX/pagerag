@@ -12,7 +12,8 @@ layout: default
 
 </section>
 
+<ul>
 {% for post in site.posts %}
-<li><a href="/pagerag/{{ post.url }}">{{ post.title }}</a></li>
+<li><a href="/pagerag/{{ post.url }}">{{ post.title | truncate: 40 }}</a></li>
 {% endfor %}
-
+</ul>
