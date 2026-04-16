@@ -1,5 +1,10 @@
 # frozen_string_literal: true
 
+def sanitize_filename(name)
+  name.gsub(/[\\\/:*?"<>|#]/, '_')
+      .gsub('·', '-')
+end
+
 def reference(url, title)
   <<~EOL
 
@@ -79,7 +84,11 @@ def summary(url)
   system('source .venv/bin/activate && uv run python3.12 rag.py')
   rag_result = File.read('output.md')
   File.write('output.md', rag_result + ref)
-  FileUtils.mv('output.md', "_output/#{jekyll_post_prefix}#{title.gsub(/\s/, '')}.md")
+
+
+  file_name = sanitize_filename("_output/#{jekyll_post_prefix}#{title.gsub(/\s/, '_')}.md")
+
+  FileUtils.mv('output.md', file_name)
   add_done(url)
 end
 

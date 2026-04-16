@@ -5,3 +5,4 @@ https://timesaving.hatenablog.com/entry/2023/03/26/150000
 https://github.com/WoeUSB/WoeUSB-ng
 https://weblabo.oscasierra.net/apache-macos-usage/
 https://qiita.com/P-man_Brown/items/1c445a35d2a018f02f62
+https://github.com/ollama/ollama/issues/5362
