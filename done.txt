@@ -1,15 +1,2 @@
-https://zenn.dev/yumayx/articles/b3c032715af661
-https://qiita.com/hujuu/items/3d600f2b2384c145ad12
-https://zenn.dev/nenenemo/articles/6788cc0d908eb5
 https://timesaving.hatenablog.com/entry/2023/03/26/150000
-https://github.com/WoeUSB/WoeUSB-ng
 https://weblabo.oscasierra.net/apache-macos-usage/
-https://qiita.com/P-man_Brown/items/1c445a35d2a018f02f62
-https://github.com/ollama/ollama/issues/5362
-https://yumayx.github.io/Workshop/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E3%83%AA%E3%82%B9%E3%83%88%E3%82%A2/2024/01/01/08-01-Relax-and-Recover.html
-https://yumayx.github.io/docs/commands/2024/01/01/act.html
-https://yumayx.github.io/docs/commands/2024/01/01/awk.html
-https://yumayx.github.io/docs/commands/2024/01/01/bg,fg.html
-https://yumayx.github.io/docs/commands/2024/01/01/csplit.html
-https://yumayx.github.io/docs/commands/2024/01/01/date.html
-https://yumayx.github.io/docs/commands/2024/01/01/diskutil.html
