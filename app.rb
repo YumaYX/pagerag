@@ -86,9 +86,9 @@ def summary(url)
   File.write('output.md', rag_result + ref)
 
 
-  file_name = sanitize_filename("_output/#{jekyll_post_prefix}#{title.gsub(/\s/, '_')}.md")
+  file_name = sanitize_filename("#{jekyll_post_prefix}#{title.gsub(/\s/, '_')}.md")
 
-  FileUtils.mv('output.md', file_name)
+  FileUtils.mv('output.md', "_output/"+file_name)
   add_done(url)
 end
 
