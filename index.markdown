@@ -7,7 +7,9 @@ layout: default
 
 RAGを使って、Webページの要点をアーカイブする。
 
-{% for post in site.posts %}
+{% assign sorted_posts = site.posts | sort: "title" %}
+
+{% for post in sorted_posts %}
 <li><a href="/pagerag/{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 
