@@ -9,6 +9,9 @@ do
 layout: post
 ---
 
+<p><small>This page is automatically generated using RAG (Retrieval-Augmented Generation).</small></p>
+
+
 $(cat "${line}")
 POSTEOF
 done
