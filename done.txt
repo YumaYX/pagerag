@@ -11,3 +11,4 @@ https://yumayx.github.io/docs/commands/2024/01/01/act.html
 https://yumayx.github.io/docs/commands/2024/01/01/awk.html
 https://yumayx.github.io/docs/commands/2024/01/01/bg,fg.html
 https://yumayx.github.io/docs/commands/2024/01/01/csplit.html
+https://yumayx.github.io/docs/commands/2024/01/01/date.html
