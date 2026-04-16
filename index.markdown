@@ -7,9 +7,6 @@ layout: default
 
 <section>
 <p>RAGを使って、Webページの要点をアーカイブする。</p>
-
-<p>このサブディレクトリー以下のコンテンツは、RAGによって、生成されている。</p>
-
 </section>
 
 <ul>
