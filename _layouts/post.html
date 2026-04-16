@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<section>
+<h2>{{ page.title }}</h2>
+
+{{ content }}
+
+<center>
+<div class="PageNavigation">
+  {% if page.previous.url %}
+    <a class="prev" href="{{ site.baseurl }}{{page.previous.url}}">◀ {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.previous.url and page.next.url %} | {% endif %}
+  {% if page.next.url %}
+  <a class="next" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}} ▶</a>
+  {% endif %}
+</div>
+</center>
+</section>
