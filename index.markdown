@@ -5,11 +5,11 @@
 layout: default
 ---
 
+<section>
 RAGを使って、Webページの要点をアーカイブする。
+</section>
 
-{% assign sorted_posts = site.posts | sort: "title" %}
-
-{% for post in sorted_posts %}
+{% for post in site.posts %}
 <li><a href="/pagerag/{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 
